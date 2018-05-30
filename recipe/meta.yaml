@@ -1,10 +1,10 @@
 {% set provider= "Ignition" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "15e510036c8f0b9c5e82a7317788bfa688fa80c84a0d39a984c944a734dec5ae" %}
+{% set sha256 = "1bc482a2dff186925cedfee4c7965809ae5bf41d898d9e37995ae18e3d5762cd" %}
 {% set sha256_win32 = "315f8558c4aaeba72c4830d2be1ccce33bac18a1c793eac64809a29e3672553a" %}
 {% set sha256_win64 = "63ea84dfd49a3fcc4d90c7aad1f6d77d48584d4653fe28a35ff202a923cc4e36" %}
 
