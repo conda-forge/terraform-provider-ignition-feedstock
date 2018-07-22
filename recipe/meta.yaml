@@ -29,7 +29,7 @@ requirements:
     - make  # [not win]
     - {{ compiler('c') }}
   host:
-    - {{ compiler('go') }}
+    - {{ compiler('go') }}  # [not win]
   run:
     - terraform >=0.10
 
