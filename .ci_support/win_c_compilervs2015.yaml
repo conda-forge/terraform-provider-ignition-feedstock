@@ -1,4 +1,4 @@
 c_compiler:
-- toolchain_c
+- vs2015
 go_compiler:
 - go
