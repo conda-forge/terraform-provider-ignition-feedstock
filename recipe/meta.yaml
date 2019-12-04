@@ -1,13 +1,13 @@
 {% set provider = "Ignition" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" + (".exe" if win else "")%}
 
-{% set sha256 = "14998d0321ef093435d00d840487dc3ef3b9866b162f04216cda14d9a9d1608c" %}
+{% set sha256 = "353b08b79fc45cd527fb875781872847dc81fb3a9e1f7d2a3a12bb73f6b1ff8a" %}
 {% set sha256_win64 = "95b1e76e775995608712137cafe04ad50af469cad71c0ba01b1e78114fa46160" %}
 
 package:
